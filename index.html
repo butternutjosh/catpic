@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+    <body>
+        <h1>
+            big title
+        </h1>
+        <h2>
+            smaller
+        </h2>
+        <h3>
+            even smaller
+        </h3>
+        <p>even even smaller</p>
+        <p><b>bold innit</b></p>
+        <ul><li>kfc</li><li>burger king</li><li>maccies</li></ul>
+        <ol><li>number one</li><li>number two</li><li>number three</li></ol>
+        <image src = "download.jpeg" ></image>
+        <button type ="button" id="btn"onclick="save_func()">button</button>
+        <input type="text" id="txtBx"> 
+        <br>
+        <a href="https://google.com">to google</a>
+        
+        <button type ="button" id="btn2" onclick ="nextpage()">next page</button>
+    </body>
+    <script>
+        function save_func(){
+            
+            const text = document.getElementById("txtBx").value
+            alert(text)
+        }
+        function nextpage(){
+            location.href ="New Text Document.html"
+        }
+    </script>
+
+</html>
