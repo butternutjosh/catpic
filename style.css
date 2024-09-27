@@ -2,3 +2,9 @@ h1{
     color:red;
     background-color: blueviolet;
 }
+.intro{
+    font-weight: bold;
+}
+#orderedList{
+    color: red;
+}
